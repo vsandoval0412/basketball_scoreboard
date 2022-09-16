@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Cursed Timer ULiL;
+  src: url(CursedTimerULiL.ttf);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#start-reset {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 145px;
+}
+
+.reset-btn {
+    height: 60px;
+    width: 100px;
+    margin: 10px 5px;
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+    border: 1px solid #9aabd8;
+    border-radius: 5px;
+    color: #9aabd8;
+    background: none;
+    font-size: 20px;
+}
+
+
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    width: 580px;
+    height: 375px;
+    background: #1b244a;
+    margin: 50px auto;
+
+}
+
+.home-title, .guest-title {
+    color: #eeeeee;
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: cetner;
+   
+}
+
+.home-points-tracker, .guest-point-tracker {
+  font-size: 100px;
+  background: black;
+  color: #f94f6d;
+  border-radius: 5px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: Cursed Timer ULiL;
+  font-weight: 400;
+  line-height: 127px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+/* +1 +2 +3 buttons*/
+
+.plus-one, .plus-two, .plus-three {
+    height: 45px;
+    width: 45px;
+    font-family: Cursed Timer ULiL;
+    border: 1px solid #9aabd8;
+    border-radius: 5px;
+    color: #9aabd8;
+    background: none;
+}
